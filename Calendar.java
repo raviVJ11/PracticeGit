@@ -32,6 +32,8 @@ public class Calendar {
 			else {
 				
 				driver.findElement(By.xpath("//th[@class='prev'][1]")).click();	
+				
+				System.out.println("New Feature");
 			}
 		}
 		
